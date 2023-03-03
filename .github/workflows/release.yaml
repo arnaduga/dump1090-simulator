@@ -1,8 +1,6 @@
 name: goreleaser
 
-on:
-  push:
-    - '*'
+on: push
 
 permissions:
   contents: write
