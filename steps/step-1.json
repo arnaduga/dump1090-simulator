@@ -1,0 +1,19 @@
+[
+{"hex":"34644c", "squawk":"0000", "flight":"", "lat":0.000000, "lon":0.000000, "validposition":0, "altitude":35975,  "vert_rate":0,"track":44, "validtrack":1,"speed":421, "messages":6, "seen":9},
+{"hex":"40688a", "squawk":"2053", "flight":"BAW734  ", "lat":48.692198, "lon":2.342618, "validposition":1, "altitude":31000,  "vert_rate":0,"track":142, "validtrack":1,"speed":432, "messages":254, "seen":3},
+{"hex":"4404a4", "squawk":"1000", "flight":"", "lat":0.000000, "lon":0.000000, "validposition":0, "altitude":15000,  "vert_rate":0,"track":0, "validtrack":0,"speed":0, "messages":11, "seen":11},
+{"hex":"34734f", "squawk":"1000", "flight":"VLG30EY ", "lat":48.742940, "lon":2.548684, "validposition":1, "altitude":5125,  "vert_rate":2048,"track":87, "validtrack":1,"speed":239, "messages":258, "seen":0},
+{"hex":"392ae2", "squawk":"1000", "flight":"AFR63PX ", "lat":48.697877, "lon":2.689121, "validposition":1, "altitude":15975,  "vert_rate":2432,"track":225, "validtrack":1,"speed":356, "messages":1040, "seen":0},
+{"hex":"40653e", "squawk":"5727", "flight":"EZY29ZV ", "lat":49.079636, "lon":3.201740, "validposition":1, "altitude":38000,  "vert_rate":0,"track":316, "validtrack":1,"speed":417, "messages":85, "seen":14},
+{"hex":"406b5b", "squawk":"5766", "flight":"BAW2741 ", "lat":48.929947, "lon":2.984830, "validposition":1, "altitude":36000,  "vert_rate":0,"track":324, "validtrack":1,"speed":435, "messages":249, "seen":0},
+{"hex":"39cea6", "squawk":"1000", "flight":"TVF13QN ", "lat":48.754440, "lon":2.694186, "validposition":1, "altitude":9000,  "vert_rate":64,"track":82, "validtrack":1,"speed":258, "messages":1069, "seen":0},
+{"hex":"3944f8", "squawk":"1000", "flight":"AFR52DA ", "lat":48.917650, "lon":2.892079, "validposition":1, "altitude":14500,  "vert_rate":0,"track":313, "validtrack":1,"speed":356, "messages":104, "seen":64},
+{"hex":"3946e1", "squawk":"1000", "flight":"AFR86BE ", "lat":48.581869, "lon":2.506762, "validposition":1, "altitude":12875,  "vert_rate":3072,"track":0, "validtrack":0,"speed":360, "messages":2028, "seen":0},
+{"hex":"3c0699", "squawk":"1000", "flight":"", "lat":0.000000, "lon":0.000000, "validposition":0, "altitude":4725,  "vert_rate":0,"track":266, "validtrack":1,"speed":264, "messages":133, "seen":53},
+{"hex":"02012b", "squawk":"1020", "flight":"MAC821D ", "lat":48.931616, "lon":2.869889, "validposition":1, "altitude":14875,  "vert_rate":0,"track":313, "validtrack":1,"speed":359, "messages":56, "seen":154},
+{"hex":"3c0ac7", "squawk":"1000", "flight":"CFG8LT  ", "lat":48.722270, "lon":3.109637, "validposition":1, "altitude":36000,  "vert_rate":0,"track":62, "validtrack":1,"speed":419, "messages":2525, "seen":0},
+{"hex":"398a63", "squawk":"1000", "flight":"NAK444  ", "lat":0.000000, "lon":0.000000, "validposition":0, "altitude":2725,  "vert_rate":0,"track":0, "validtrack":0,"speed":0, "messages":278, "seen":216},
+{"hex":"4d236f", "squawk":"1000", "flight":"LYX8101 ", "lat":0.000000, "lon":0.000000, "validposition":0, "altitude":27975,  "vert_rate":0,"track":0, "validtrack":0,"speed":0, "messages":1343, "seen":119},
+{"hex":"3c49b6", "squawk":"1000", "flight":"TUI6DL  ", "lat":48.930130, "lon":3.484920, "validposition":1, "altitude":35125,  "vert_rate":-1024,"track":70, "validtrack":1,"speed":412, "messages":3904, "seen":23},
+{"hex":"3444c3", "squawk":"7672", "flight":"AEA41HG ", "lat":48.501755, "lon":2.417344, "validposition":1, "altitude":17300,  "vert_rate":3520,"track":214, "validtrack":1,"speed":351, "messages":2395, "seen":239}
+]

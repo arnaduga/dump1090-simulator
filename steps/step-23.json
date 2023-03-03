@@ -1,0 +1,20 @@
+[
+{"hex":"343141", "squawk":"1000", "flight":"", "lat":48.628095, "lon":2.322741, "validposition":1, "altitude":35975,  "vert_rate":0,"track":51, "validtrack":1,"speed":418, "messages":122, "seen":0},
+{"hex":"3455d9", "squawk":"1375", "flight":"", "lat":49.111587, "lon":3.180831, "validposition":1, "altitude":39000,  "vert_rate":0,"track":216, "validtrack":1,"speed":441, "messages":48, "seen":49},
+{"hex":"39016d", "squawk":"4277", "flight":"FGALN   ", "lat":0.000000, "lon":0.000000, "validposition":0, "altitude":7900,  "vert_rate":0,"track":0, "validtrack":0,"speed":0, "messages":80, "seen":4},
+{"hex":"03e015", "squawk":"6775", "flight":"TRKGM   ", "lat":48.762398, "lon":3.005194, "validposition":1, "altitude":40000,  "vert_rate":64,"track":323, "validtrack":1,"speed":506, "messages":254, "seen":0},
+{"hex":"484164", "squawk":"2104", "flight":"KLM11S  ", "lat":48.556684, "lon":2.444892, "validposition":1, "altitude":39000,  "vert_rate":0,"track":200, "validtrack":1,"speed":477, "messages":1286, "seen":0},
+{"hex":"3420ca", "squawk":"7673", "flight":"IBE34AL ", "lat":48.570923, "lon":2.410231, "validposition":1, "altitude":11100,  "vert_rate":1216,"track":225, "validtrack":1,"speed":313, "messages":1950, "seen":27},
+{"hex":"4d20d8", "squawk":"5724", "flight":"VJT836  ", "lat":49.009460, "lon":2.817500, "validposition":1, "altitude":38000,  "vert_rate":0,"track":320, "validtrack":1,"speed":462, "messages":534, "seen":133},
+{"hex":"4d02dd", "squawk":"5777", "flight":"JFA77E  ", "lat":48.707245, "lon":2.417415, "validposition":1, "altitude":22000,  "vert_rate":-64,"track":264, "validtrack":1,"speed":301, "messages":1410, "seen":1},
+{"hex":"a026a5", "squawk":"1000", "flight":"", "lat":48.931915, "lon":2.868770, "validposition":1, "altitude":15000,  "vert_rate":0,"track":313, "validtrack":1,"speed":353, "messages":125, "seen":277},
+{"hex":"3cd636", "squawk":"5732", "flight":"", "lat":0.000000, "lon":0.000000, "validposition":0, "altitude":38000,  "vert_rate":0,"track":330, "validtrack":1,"speed":437, "messages":30, "seen":212},
+{"hex":"4d2265", "squawk":"1000", "flight":"RYR6024 ", "lat":48.912064, "lon":2.955178, "validposition":1, "altitude":31950,  "vert_rate":-1152,"track":330, "validtrack":1,"speed":402, "messages":560, "seen":111},
+{"hex":"39ce41", "squawk":"1000", "flight":"VLJ994N ", "lat":48.484761, "lon":2.619227, "validposition":1, "altitude":23575,  "vert_rate":2112,"track":190, "validtrack":1,"speed":349, "messages":1695, "seen":57},
+{"hex":"484b6e", "squawk":"2111", "flight":"TRA5679 ", "lat":48.193405, "lon":2.579181, "validposition":1, "altitude":39000,  "vert_rate":0,"track":176, "validtrack":1,"speed":471, "messages":2378, "seen":17},
+{"hex":"0a004a", "squawk":"7601", "flight":"DAH1123 ", "lat":48.536041, "lon":2.438965, "validposition":1, "altitude":11950,  "vert_rate":2688,"track":228, "validtrack":1,"speed":367, "messages":2040, "seen":144},
+{"hex":"34644c", "squawk":"1000", "flight":"IBS3672 ", "lat":48.937454, "lon":2.983774, "validposition":1, "altitude":35975,  "vert_rate":0,"track":71, "validtrack":1,"speed":421, "messages":1043, "seen":62},
+{"hex":"40688a", "squawk":"2053", "flight":"BAW734  ", "lat":48.417160, "lon":2.663058, "validposition":1, "altitude":31025,  "vert_rate":0,"track":142, "validtrack":1,"speed":430, "messages":1635, "seen":275},
+{"hex":"34734f", "squawk":"1000", "flight":"VLG30EY ", "lat":48.766123, "lon":2.846615, "validposition":1, "altitude":9000,  "vert_rate":0,"track":83, "validtrack":1,"speed":271, "messages":1433, "seen":245},
+{"hex":"392ae2", "squawk":"1000", "flight":"AFR63PX ", "lat":48.347432, "lon":2.461516, "validposition":1, "altitude":23750,  "vert_rate":448,"track":163, "validtrack":1,"speed":418, "messages":2902, "seen":196}
+]
