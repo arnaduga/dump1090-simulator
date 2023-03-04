@@ -9,39 +9,39 @@ import (
 
 const PORT = "8080"
 
-var currentStep = 0
+var s = 0
 
-func rootResource(w http.ResponseWriter, r *http.Request) {
-	fileToOpen := fmt.Sprintf("steps/step-%v.json", ((currentStep % 29) + 1))
-	fmt.Printf("Endpoint called: /data.json, to be served with file %v\n", fileToOpen)
+func dataJson(w http.ResponseWriter, r *http.Request) {
+	f := fmt.Sprintf("steps/step-%v.json", ((s % 29) + 1))
+	fmt.Printf("Endpoint called: /data.json, to be served with file %v\n", f)
 
-	data, err := os.ReadFile(fileToOpen)
+	data, err := os.ReadFile(f)
 	if err != nil {
 		log.Fatal(err)
 	}
 	w.Header().Set("Content-Type", "application/json")
-	w.Header().Set("x-source", fileToOpen)
+	w.Header().Set("x-source", f)
 	w.Write(data)
-	currentStep = currentStep + 1
+	s += 1
 }
 
 func handleRequests() {
-	http.HandleFunc("/data.json", rootResource)
+	http.HandleFunc("/data.json", dataJson)
 
-	serverPort := os.Getenv("DUMP1090_SIMU_PORT")
+	sp := os.Getenv("DUMP1090_SIMU_PORT")
 
-	if serverPort == "" {
+	if sp == "" {
 		fmt.Printf("NO port defintion found in environment variable. Will use the default: %v\n", PORT)
-		serverPort = PORT
+		sp = PORT
 	} else {
-		fmt.Printf("Port definition found in environment variable. Will use it: %v\n", serverPort)
+		fmt.Printf("Port definition found in environment variable. Will use it: %v\n", sp)
 
 	}
 
-	fmt.Printf("Starting server on port %v\n", serverPort)
+	fmt.Printf("Starting server on port %v\n", sp)
 	fmt.Printf("NOTE: only ONE endpoint is valid: /data.json\n")
-	fmt.Printf("TIP : curl -s http://localhost:%v/data.json\n", serverPort)
-	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%v", serverPort), nil))
+	fmt.Printf("TIP : curl -s http://localhost:%v/data.json\n", sp)
+	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%v", sp), nil))
 }
 
 func main() {
